@@ -1,0 +1,29 @@
+/*Table name*/
+
+CREATE TABLE Demigod_surplus (Aisle INTEGER, Item TEXT,Description TEXT, Drachmas INTEGER);
+/*Herme's Winged PF Flyers*/
+
+INSERT INTO Demigod_surplus VALUES (3, "Hermes Winged PF Flyers", "Hero work is difficult and we appreciate that here at Olympus' finest surplus store. Get yourself out of any occupational hazard with the agility of Hermes himself,guaranteed.", 11);
+
+/*Aegis, shield of Zeus*/
+
+INSERT INTO Demigod_surplus VALUES(3, "Aegis", "While it is undeniably satisfying to slay any foes or impediments you may come across on your journyes, it's important to remember the importance of caution and defense; allow yourself to feel empowered in your position with the shield of Zeus & Athena themselves.", 23);
+SELECT * FROM Demigod_surplus;
+
+/*Aphrodite's weight loss pills*/
+
+INSERT INTO Demigod_surplus VALUES(7, "Aphrodite's weight loss vitamins", "While Aphrodite is primarily known as the Goddess of fertility and love, we can't forget that she is also one of the patron gods of war. Many aspects of those go hand in hand, and these supplements will guarantee you shed all that unnecessary weight in order to thrive in every aspect.", 5);
+
+/*Pegasus Pellets*/
+
+INSERT INTO Demigod_surplus VALUES(7, "Pegasus Pellets", "We all know just how tiring and hunger inducing some of the quests for the gods we undertake can be, not only do we need to keep ourselves fueled and energized for the long days ahead, but our companions as well. The proprietary blend of vitamins and nutrients in our pellets will ensure that your Pegasus is able to perform at it's best at all times.", 4);
+SELECT * FROM Demigod_surplus;
+
+/*Minotaur Cereal "Labrynth-O's*/
+
+INSERT INTO Demigod_surplus VALUES(7, "Labrynth-O's","The infamous Labrynth of Daedalus housed the monstrous Minotaur, made famous the the horrifying trial it put the people sacraficed to it through. As the story goes, a virgin would be sacrificed by being taken to the mouth of the labryinth and being forced to enter it, at which point they would have to navigate through the mind bending maze while praying to all the gods the minotaur wouldn't find them. As one would imagine, this takes quite a toll on the body, monstrous and human alike. There is no better way to ensure you're able to take on any task, including besting the minotaur in it's own labryinth, then by fueling yourself with the hearty and nutritious Labrynth-O's.", 2);
+
+SELECT*FROM Demigod_surplus WHERE Aisle >0 ORDER BY Aisle;
+SELECT * FROM Demigod_surplus;
+SELECT * FROM Demigod_surplus;
+SELECT*FROM Demigod_surplus WHERE Drachmas >0 ORDER BY Drachmas
